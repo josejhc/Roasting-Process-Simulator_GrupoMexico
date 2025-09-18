@@ -1,0 +1,48 @@
+
+
+/* Container for the entire table */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+.table{
+    display: flex ;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: aqua; */
+}
+.table h2{
+align-self: center;
+}
+
+/* Title above the table */
+.stats-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Table layout */
+.stats-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Table cells (both th and td) */
+.stats-cell {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+/* Highlight selected row */
+.selected-row {
+  background-color: #fdbbbb; /* Light blue */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Optional: change cursor on hover */
+.stats-table tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
