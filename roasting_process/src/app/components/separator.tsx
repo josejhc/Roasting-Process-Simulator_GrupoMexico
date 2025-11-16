@@ -1,5 +1,5 @@
 // const GraphContainer = ({ src, alt, title, width }) => {
-const Separator = ({text, className}) => {
+const Separator = ({text, className}:any) => {
     
 
     return(
