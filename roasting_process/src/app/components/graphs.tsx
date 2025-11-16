@@ -1,6 +1,7 @@
 import React from 'react';
 import './graphs.css';
-const GraphContainer = ({ src, alt, title, width }) => {
+
+const GraphContainer = ({ src, alt, title, width }:any) => {
   return (
     <div className="graph-container">
       <h3 className='title'>{title}</h3>
